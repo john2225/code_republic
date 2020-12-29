@@ -8,7 +8,7 @@ int reverse(int number) {
     return reverseNumber;
 }
 int main() {
-    std:: cout << "Please type whole number(s): ";
+    std:: cout << "Please enter whole number(s): ";
     int count;
     int sum;
     std:: cin >> count;
