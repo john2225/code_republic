@@ -11,7 +11,7 @@ int main() {
 	int number, system;
 	std::cout << "Enter the number to conver: ";
 	std::cin >> number;
-        std::cout << "Enter system (heximal or binary) : ";
+    std::cout << "Enter system (heximal or binary) : ";
 	std::cin >> system;
 	deci_hexo(number, system);
 	std::cout << std::endl;
