@@ -2,7 +2,7 @@
 #include <string>
 
 void rev_elements(std::string arr) {
-	for(int i = arr.size() -1; i>= 0; --i) {
+	for(int i = arr.size() -1; i >= 0; --i) {
 		std::cout << arr[i];
 	}
 	std::cout << std:: endl;
