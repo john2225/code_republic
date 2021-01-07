@@ -9,7 +9,7 @@ void rev_elements(std::string arr) {
 }
 
 int main() {
-	std::cout << " Enter elements of an array: ";
+	std::cout << "Enter elements of an array: ";
 	std::string word;
 	getline(std::cin, word);
 	rev_elements(word);
