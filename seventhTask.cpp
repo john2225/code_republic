@@ -4,7 +4,7 @@ void deleteVowels (std::string &text) {
     for(int ix = 0; ix < text.size(); ++ix) {
         for(int jx = 0; jx < vowels.size(); ++jx) {
             if(text[ix] == vowels[jx]) {
-                text.erase(ix, 1);
+                text[ix] = 0;
             }
         }
     }
