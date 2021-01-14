@@ -6,7 +6,7 @@ struct Student {
 	int avg;
 };
 
-void swap(Student* arr1, Student* arr2) {
+void swap(Student* stud1, Student* stud2) {
 	Student tmp  = *arr1;
 	*arr1 = *arr2;
 	*arr2 = tmp;
