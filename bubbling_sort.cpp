@@ -7,9 +7,9 @@ struct Student {
 };
 
 void swap(Student* stud1, Student* stud2) {
-	Student tmp  = *arr1;
-	*arr1 = *arr2;
-	*arr2 = tmp;
+	Student tmp  = *stud1;
+	*stud1 = *stud2;
+	*stud2 = tmp;
 }
 
 void bubble_sort (Student* arr, int arrSize) {
